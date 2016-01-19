@@ -1,0 +1,169 @@
+<!--<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="#88BB40"
+android:id="@+id/al"
+tools:context=".MainActivity" >-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#88BB40"
+    android:orientation="vertical"
+    android:id="@+id/ll"
+    tools:context=".MainActivity"
+    >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/header"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-20dp"
+            android:layout_marginLeft="-3dp"
+            android:layout_marginRight="-3dp"
+            android:src="@drawable/header" />
+
+        <ImageView
+            android:id="@+id/nav_buttons_dropbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/header"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="-2dp"
+            android:src="@drawable/nav_buttons_dropbox" />
+
+        <ImageView
+            android:id="@+id/nav_buttons_facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/nav_buttons_dropbox"
+            android:layout_toRightOf="@id/nav_buttons_dropbox"
+            android:layout_marginLeft="4dp"
+            android:src="@drawable/nav_buttons_facebook" />
+
+        <ImageView
+            android:id="@+id/nav_buttons_cameraroll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/nav_buttons_facebook"
+            android:layout_toRightOf="@id/nav_buttons_facebook"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="3dp"
+            android:clickable="true"
+            android:src="@drawable/nav_buttons_cameraroll" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/spacer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-50dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginRight="-3dp"
+        android:src="@drawable/spacer" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-13dp"
+        android:id="@+id/rl1">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/camera_button"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:id="@+id/rl2">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/camera_button"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:id="@+id/rl3">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/camera_button"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/play2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop = "200dp"
+        android:background="@android:color/transparent" />
+
+    <ImageView
+        android:id="@+id/pause2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop = "200dp"
+        android:background="@android:color/transparent" />
+
+    <ImageView
+        android:id="@+id/stop2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop = "200dp"
+        android:background="@android:color/transparent" />
+
+    <ImageView
+        android:id="@+id/play3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop = "200dp"
+        android:background="@android:color/transparent" />
+
+    <ImageView
+        android:id="@+id/pause3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop = "200dp"
+        android:background="@android:color/transparent" />
+
+    <ImageView
+        android:id="@+id/stop3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop = "200dp"
+        android:background="@android:color/transparent" />
+
+    <ImageView
+        android:id="@+id/play1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent" />
+
+</LinearLayout>
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="newPicture1" />
+    <item type="id" name="newPicture2" />
+    <item type="id" name="newPicture3" />
+    <item type="id" name="play1" />
+    <item type="id" name="pause1" />
+    <item type="id" name="stop1" />
+</resources>
